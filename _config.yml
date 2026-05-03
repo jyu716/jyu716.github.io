@@ -61,10 +61,10 @@ content:
         title: The Fact (더팩트)
         link: https://www.tf.co.kr/
         # link_text: boringcompany.com
-        sub_title: AOS, IOS 네이티브 개발자
+        sub_title: AOS, iOS WebView 기반 하이브리드 앱 개발
         caption: 2024.07 ~ 현재
         quote: >
-          좋아하는 스타에게 직접 투표하여 연말 시상식 무대를 선물하고, 전광판 광고 등 다양한 서포트를 진행하는 팬 주도형 아이돌 소통 앱
+          [팬앤스타] 좋아하는 스타에게 직접 투표하여 연말 시상식 무대를 선물하고, 전광판 광고 등 다양한 서포트를 진행하는 팬 주도형 아이돌 소통 앱
         description: | # this will include new lines to allow paragraphs
           [AOS, iOS 공통]
           - WebView(Android) / WKWebView(iOS) 기반 하이브리드 아키텍처 설계 및 운영
@@ -127,48 +127,88 @@ content:
             
             → ATT(App Tracking Transparency) 및 개인정보 권한 흐름 개선
 
+
     # 넥스트라인코드 (토파스)
       - layout: left
         title: 넥스트라인코드
-        link: https://www.tf.co.kr/
         # link_text: boringcompany.com
-        sub_title: AOS 네이티브 개발자
+        sub_title: Android 네이티브 기반 하이브리드 앱 개발
         caption: 2023.01 ~ 2024.03
         quote: >
-          한진 계열사인 토파스 여행정보 에서 운영하던 자체서비스로 여행에 관한 정보를 공유하고 자랑하는 여행자들을 위한 앱
-        description: | # this will include new lines to allow paragraphs
-    
+          [트립코디] 한진 계열사인 토파스 여행정보 에서 운영하던 자체서비스로 여행에 관한 정보를 공유하고 자랑하는 여행자들을 위한 앱
           
+          → 서비스 종료
+          
+        description: | # this will include new lines to allow paragraphs
           [Android] 
+          - Google Map 기반 위치 중심 콘텐츠 탐색 기능 구현
+            → 사용자 현재 위치 및 지도 좌표 기준으로 주변 숙소, 맛집, 관광지 데이터 동적 조회
 
+          - 여행 콘텐츠 업로드 및 SNS 기능 개발
+          
+            → 이미지/영상/텍스트 기반 게시글 작성 및 공유, 카테고리 기반 콘텐츠 탐색 구조 구현
+
+          - Push 알림 시스템 개선
+          
+            → 기존 단순 알림 구조를 카테고리 기반으로 재설계하여 사용자 맞춤 알림 제공
+
+          - 앱 초기 진입 및 상태 관리 로직 구현
+          
+            → 서버 상태 체크, 업데이트 유도, 약관 변경 대응 등 앱 실행 흐름 안정화
+
+          - 사용자 콘텐츠 관리 기능 개선
+          
+            → 업로드한 게시글 다운로드 기능 추가 및 관련 API 연동
+            
+            
     # 플레이헤드
       - layout: left
         title: 플레이헤드
-        link: https://www.tf.co.kr/
         # link_text: boringcompany.com
         sub_title: AOS 네이티브 개발자
         caption: 2019.11 ~ 2023.01
         quote: >
-          하나의 노래를 여러 사용자가 ‘이어’부르며 각자의 개성으로 새롭게 하나의 노래를 재창조하는 SNS기반의 엔터테인먼트 앱
-        description: | # this will include new lines to allow paragraphs
-    
+          [OpenVerse] 하나의 노래를 여러 사용자가 ‘이어’부르며 각자의 개성으로 새롭게 하나의 노래를 재창조하는 SNS기반의 엔터테인먼트 앱
           
+          → 서비스 종료
+          
+        description: | # this will include new lines to allow paragraphs
           [Android] 
+          - ExoPlayer 기반 영상 스트리밍 및 재생 기능 구현
+            → 다양한 영상 콘텐츠를 안정적으로 처리할 수 있는 재생 구조 설계
 
-  - title: Education # Title for the section
+          - 영상 기반 SNS 핵심 기능 개발
+            → 좋아요, 댓글, 팔로우, 이어부르기 등 사용자 참여 기능 구현
+
+          - ViewPager, RecyclerView, Fragment 기반 화면 구성
+            → 리스트/피드 구조 및 화면 전환을 효율적으로 처리하고, Fragment 재사용을 통한 UI 구조 설계
+
+          - 콘텐츠 소비 UX 개선
+             → 스크롤 및 영상 재생 상태에 따라 자동 재생과 다음 콘텐츠 노출이 자연스럽게 이어지도록 구현
+
+          - SNS 로그인 및 인증 구조 구축
+            → Google, Kakao, Facebook, Apple 로그인 연동 및 사용자 인증 흐름 구현
+
+          - 검색 및 추천 콘텐츠 기능 개발
+            → 태그 및 유저 기반 검색, 추천 영상 노출 기능 구현
+
+          - Firebase 기반 서비스 연동
+            → FCM Push, Dynamic Link를 활용한 사용자 유입 및 알림 기능 구현
+            
+            
+  - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
+    quote: >
+          현재까지 실무에서 사용하거나 경험한 기술 스택입니다.
     content:
       - layout: left
         title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+          Kotlin, Java, WebView, MVVM Design Pattern, Coroutine, WorkManager, Retrofit2, ExoPlayer
+          
+          Glide, Firebase(FCM, Dynamic Link), SNS Login, Google Map, In-App Billing
+          
+          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
