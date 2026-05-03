@@ -200,37 +200,37 @@ content:
     layout: list # Type of content section (list/text)
     quote: >
           현재까지 실무에서 사용하거나 경험한 기술 스택입니다.
-  content:
-    - layout: left
-      title: Mobile
-      description: |
-        - Kotlin, Java, Swift
-        - Android WebView, iOS WKWebView
-        - MVVM Design Pattern
-        - Coroutine, WorkManager
-        - RecyclerView, ViewPager, Fragment
+    content:
+      - layout: left
+        title: Mobile
+        description: |
+            - Kotlin, Java, Swift
+            - Android WebView, iOS WKWebView
+            - MVVM Design Pattern
+            - Coroutine, WorkManager
+            - RecyclerView, ViewPager, Fragment
 
-    - layout: left
-      title: Network / Integration
-      description: |
-        - Retrofit2, REST API
-        - JavaScript Interface, WKScriptMessageHandler
-        - Firebase FCM, Dynamic Link
-        - SNS Login (Google, Kakao, Facebook, Apple)
+      - layout: left
+        title: Network / Integration
+        description: |
+            - Retrofit2, REST API
+            - JavaScript Interface, WKScriptMessageHandler
+            - Firebase FCM, Dynamic Link
+            - SNS Login (Google, Kakao, Facebook, Apple)
 
-    - layout: left
-      title: Media / UI
-      description: |
-        - ExoPlayer
-        - Glide
-        - Google Map
+      - layout: left
+        title: Media / UI
+        description: |
+            - ExoPlayer
+            - Glide
+            - Google Map
 
-    - layout: left
-      title: Payment / Ads
-      description: |
-        - Google Play Billing
-        - StoreKit
-        - Ad SDK Integration
+      - layout: left
+        title: Payment / Ads
+        description: |
+            - Google Play Billing
+            - StoreKit
+            - Ad SDK Integration
           
   - title: A Little More About Me
     layout: text
