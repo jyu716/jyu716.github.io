@@ -128,7 +128,6 @@ content:
             → ATT(App Tracking Transparency) 및 개인정보 권한 흐름 개선
 
     # 넥스트라인코드 (토파스)
-    content:
       - layout: left
         title: 넥스트라인코드
         link: https://www.tf.co.kr/
@@ -143,7 +142,6 @@ content:
           [Android] 
 
     # 플레이헤드
-    content:
       - layout: left
         title: 플레이헤드
         link: https://www.tf.co.kr/
