@@ -1,0 +1,198 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 정연욱
+title: 안드로이드 모바일 개발자
+email: tng716@gmail.com
+#phone: 
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+#github_username:  sproogen
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+#linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+#about_profile_image: images/profile.jpg
+
+about_content: | # this will include new lines to allow paragraphs
+  네이티브 앱과 WebView 기반 서비스 앱을 개발하며 서비스 최적화와 안정성 개선 경험을 쌓아온 6년차 Android 개발자 정연욱입니다.  
+  문제가 발생했을 때 끝까지 해결하는 과정을 반복하며 서비스 품질을 개선해왔고, 이를 통해 끈기 있는 문제 해결 역량을 길러왔습니다.
+  
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    # 더팩트 라인
+    content:
+      - layout: left
+        title: The Fact (더팩트)
+        link: https://www.tf.co.kr/
+        # link_text: boringcompany.com
+        sub_title: AOS, IOS 네이티브 개발자
+        caption: 2024.07 ~ 현재
+        quote: >
+          좋아하는 스타에게 직접 투표하여 연말 시상식 무대를 선물하고, 전광판 광고 등 다양한 서포트를 진행하는 팬 주도형 아이돌 소통 앱
+        description: | # this will include new lines to allow paragraphs
+          [AOS, iOS 공통]
+          - WebView(Android) / WKWebView(iOS) 기반 하이브리드 아키텍처 설계 및 운영
+           
+            → 앱-웹 간 기능 의존도가 높은 구조에서 안정적인 인터페이스 환경 구축
+          
+          - JavaScript Bridge 구조 표준화
+            
+            → 앱-웹 간 데이터 통신 및 결제/광고/파일 다운로드 기능 연동 구조 통합
+          
+          - 인증 안정성 개선
+           
+            → 로그인 및 결제 과정에서 발생하던 쿠키/세션 불일치 문제 해결로 인증 실패 케이스 감소
+          
+          - 인앱 결제 시스템 구축 및 안정화
+            
+            → 서버 API 연동 및 결제 실패/중복 처리 방지 로직(Idempotency) 적용으로 결제 신뢰도 향상
+          
+          - Push 알림 및 광고 SDK 운영 구조 개선
+            
+            → SDK 버전 업데이트 대응 및 초기화/로딩 구조 개선을 통해 앱 안정성 유지
+
+          
+          [Android] 
+          - Java → Kotlin 마이그레이션 및 Coroutine 도입
+           
+            → 레거시 코드 구조 개선 및 비동기 처리 안정성 향상
+          
+          - Google Play Billing 기반 결제 시스템 구현
+            
+            → 상품 관리 및 결제 흐름 설계, 서버 연동 구조 구축
+          
+          - WorkManager 기반 결제 복구 로직 구현
+            
+            → 앱 종료/네트워크 실패 상황에서도 결제 유실 방지
+          
+          - Google Play 정책 대응
+            
+            → Age Signals API 적용 및 국가별 연령 정책 대응, 테스트 시나리오 구성
+          
+          - 광고 SDK 성능 개선 (ANR 대응)
+            
+            → 초기화 과정의 메인 스레드 블로킹 제거로 ANR 발생률 감소
+
+
+          [iOS]
+          - Safari 로그인 이후 앱 복귀 시 세션 유지 처리
+            
+            → 인증 흐름 단절 문제 해결 및 사용자 로그인 경험 개선
+            
+          - StoreKit 기반 인앱 결제 구현 및 서버 연동
+            
+            → 영수증 검증(Receipt Validation) 및 결제 상태 관리 로직 구성
+
+          - WKScriptMessageHandler 기반 JS Bridge 구현
+           
+            → 타입 안전한 앱-웹 간 통신 구조 설계 및 유지보수성 개선
+            
+          - iOS 정책 및 권한 대응
+            
+            → ATT(App Tracking Transparency) 및 개인정보 권한 흐름 개선
+
+    # 넥스트라인코드 (토파스)
+    content:
+      - layout: left
+        title: 넥스트라인코드
+        link: https://www.tf.co.kr/
+        # link_text: boringcompany.com
+        sub_title: AOS 네이티브 개발자
+        caption: 2023.01 ~ 2024.03
+        quote: >
+          한진 계열사인 토파스 여행정보 에서 운영하던 자체서비스로 여행에 관한 정보를 공유하고 자랑하는 여행자들을 위한 앱
+        description: | # this will include new lines to allow paragraphs
+    
+          
+          [Android] 
+
+    # 플레이헤드
+    content:
+      - layout: left
+        title: 플레이헤드
+        link: https://www.tf.co.kr/
+        # link_text: boringcompany.com
+        sub_title: AOS 네이티브 개발자
+        caption: 2019.11 ~ 2023.01
+        quote: >
+          하나의 노래를 여러 사용자가 ‘이어’부르며 각자의 개성으로 새롭게 하나의 노래를 재창조하는 SNS기반의 엔터테인먼트 앱
+        description: | # this will include new lines to allow paragraphs
+    
+          
+          [Android] 
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Harvard University
+        caption: 2010 - 2013
+        sub_title: BSc Computer Science
+        quote: >
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
