@@ -237,17 +237,20 @@ content:
             - StoreKit
             - Ad SDK Integration
           
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Education
+    layout: list # Type of content section (list/text)
+    content: # this will include new lines to allow paragraphs
+     - layout: left
+        title: 방송통신 대학교
+        # link_text: boringcompany.com
+        sub_title: 컴퓨터과학과
+        caption: 2023.03 ~ 2026.02
+        
+    - layout: left
+        title: 백석문화 대학교
+        # link_text: boringcompany.com
+        sub_title: 인터넷정보학부
+        caption: 2013.03 ~ 2016.02
 
 # Footer
 footer_show_references: true
