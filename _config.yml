@@ -241,13 +241,13 @@ content:
     layout: list # Type of content section (list/text)
     content: # this will include new lines to allow paragraphs
       - layout: left
-        title: 방송통신 대학교
+        title: 방송통신대학교
         # link_text: boringcompany.com
         sub_title: 컴퓨터과학과
         caption: 2023.03 ~ 2026.02
           
       - layout: left
-        title: 백석문화 대학교
+        title: 백석문화대학교
         # link_text: boringcompany.com
         sub_title: 인터넷정보학부
         caption: 2013.03 ~ 2016.02
