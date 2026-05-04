@@ -230,7 +230,7 @@ content:
             - SNS Login (Google, Kakao, Facebook, Apple)
 
       - layout: left
-        title: Network / Integration
+        title: Data / Storage
         description: |
             - SQLite
             - SharedPreferences
