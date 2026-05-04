@@ -63,7 +63,7 @@ content:
         # link_text: boringcompany.com
         sub_title: 모바일 개발자 (Android, iOS)
         caption: 2024.07 ~ 현재
-        quote: >
+        quote: |
           [팬앤스타]
           
           좋아하는 스타에게 직접 투표하여 연말 시상식 무대를 선물하고, 전광판 광고 등 다양한 서포트를 진행하는 팬 주도형 아이돌 소통 앱
@@ -106,7 +106,7 @@ content:
           
           - Google Play 정책 대응
             
-            → Age Signals API 적용 및 국가별 연령 정책 대응, 테스트 시나리오 구성
+            → Age Signals API 적용 및 국가별 연령 정책 대응,  ,결제 관련 정책 대응
           
           - 광고 SDK 성능 개선 (ANR 대응)
             
@@ -137,7 +137,7 @@ content:
         # link_text: boringcompany.com
         sub_title: 모바일 개발자 (Android)
         caption: 2023.01 ~ 2024.03
-        quote: >
+        quote: |
           [트립코디]
           
           한진 계열사인 토파스 여행정보 에서 운영하던 자체서비스로 여행에 관한 정보를 공유하고 자랑하는 여행자들을 위한 앱
@@ -147,6 +147,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           [Android] 
           - Google Map 기반 위치 중심 콘텐츠 탐색 기능 구현
+          
             → 사용자 현재 위치 및 지도 좌표 기준으로 주변 숙소, 맛집, 관광지 데이터 동적 조회
 
           - 여행 콘텐츠 업로드 및 SNS 기능 개발
@@ -172,7 +173,7 @@ content:
         # link_text: boringcompany.com
         sub_title: 모바일 개발자 (Android)
         caption: 2019.11 ~ 2023.01
-        quote: >
+        quote: |
           [OpenVerse]
           
           하나의 노래를 여러 사용자가 ‘이어’부르며 각자의 개성으로 새롭게 하나의 노래를 재창조하는 SNS기반의 엔터테인먼트 앱
